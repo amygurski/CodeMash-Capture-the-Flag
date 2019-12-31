@@ -27,3 +27,15 @@ Soundex is a SQL expression. The SOUNDEX() function accepts a string and convert
 
 **Solution** 
 cm20-T600-H400-P600
+
+### 3. Where's the Bacon
+**CCCMCCMCMM20-CCCCMCCCCCCCCMCCMMCMCMMCC-MCCMCCCCCCMCCCMMCCMCCCMCCMCCCM-CCCCMCCMCCMCCMCMCCMCCCMCCMCCCC-CCCCCMCCMC-CCCMCCMMCMCCCMMCCMCCCMCMMCCCCCMCCCMCCMMM**
+
+**Getting started** 
+OK, I didn't know the bacon cipher was a thing. Thanks google.
+
+**What I learned**  
+This decoding website is great. I could just say that the first letter was C and the 2nd was M and it deciphered it: [DCode Bacon Cipher](https://www.dcode.fr/bacon-cipher). This was also nice for summarizing how it works: [Bacon Cipher explanation](https://github.com/mathiasbynens/bacon-cipher)
+
+**Solution** 
+CM20-BACON-TASTES-BETTER-AT-CODEMASH
