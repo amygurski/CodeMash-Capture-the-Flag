@@ -107,7 +107,7 @@ This one was an HTML file with a poem. I was comfortable with looking at HTML so
 ![Bacon Poem](https://github.com/amygurski/CodeMash-Capture-the-Flag/blob/master/img/whatismissingpoem.PNG)
 
 **What I learned**
-The trick here was realizing Francis Bacon was a clue, which seems so obvious now. Then knowing the Bacon cipher is 2 letters, I could see that it was the HTML tags for <b> Bold and <i> Italic. Copying those into the same [DCode Bacon Cipher](https://www.dcode.fr/bacon-cipher) did the trick.
+The trick here was realizing Francis Bacon was a clue, which seems so obvious now. Then knowing the Bacon cipher is 2 letters, I could see that it was the HTML tags for Bold and Italic. Copying those into the same [DCode Bacon Cipher](https://www.dcode.fr/bacon-cipher) did the trick.
 
 ### MOBILE
 
