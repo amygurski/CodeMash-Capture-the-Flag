@@ -53,6 +53,7 @@ cm20-T600-H400-P600
 **Getting Started**
 After the level 1 challenge, I was ready for Base64! Decoding it I saw the file started with PNG. I found a [Base64 to PNG converter](https://onlinepngtools.com/convert-base64-to-png) and sure enough a flag was on the image.
 
+![All your bases 2 Flag](https://github.com/amygurski/CodeMash-Capture-the-Flag/blob/master/img/all-your-bases-2-result.png)
 ### 3. Where's the Bacon
 **CCCMCCMCMM20-CCCCMCCCCCCCCMCCMMCMCMMCC-MCCMCCCCCCMCCCMMCCMCCCMCCMCCCM-CCCCMCCMCCMCCMCMCCMCCCMCCMCCCC-CCCCCMCCMC-CCCMCCMMCMCCCMMCCMCCCMCMMCCCCCMCCCMCCMMM**
 
