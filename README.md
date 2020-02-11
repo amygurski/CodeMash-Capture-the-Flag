@@ -1,13 +1,16 @@
 # CodeMash 2020 Capture the flag
-I participated in the capture the flag challenge at CodeMash 2020. I was proud of myself in that I was in 7th place at one point in a competition of over 200 people.
+I participated in the capture the flag challenge at CodeMash 2020. 
 
 A Capture The Flag competition is a technological puzzle game played online, that requires research to capture the flags and learn about technology. By doing these challenges, I learned a lot and it enhances my CodeMash experience because it brought me together with some cool people there who also enjoy a challenge.
+
+For a brief while, I was on the top 10 list, and I really like how my curve - the yellow one - is "gradual" - it shows how I was struggling and learning for each one (whereas others wizzed through them!). I'm so excited to bring what I learned to next years' CTF!
+
+![Leaderboard](https://github.com/amygurski/CodeMash-Capture-the-Flag/blob/master/img/ctf%20leaderboard.PNG)
 
 # Write-up for solutions
 
 ### ACCESS CONTROL
-
-### BINARY ANALYSIS 
+ 
 ### We got the password dump (100)
 **Getting started**
 These were the passwords:
@@ -15,13 +18,16 @@ These were the passwords:
 b49add72074b0ba72357b068035b4676
 a37a67d2cd38a3ac9ea27b1215002b99
 4259eb9ea37f3ba630d82ac7dd50e44b
-I started with Google, big surprise, and stumbled on a password hash cracker. Pasting them in identified them as MD5 type and gave the result.
+
+I started with Google, big surprise, and stumbled on a [password hash cracker](https://crackstation.net/). Pasting them in identified them as MD5 type and gave the result.
 
 **What I learned**
 The term "password hash" and I found the Wikipedia page on [MD5](https://en.wikipedia.org/wiki/MD5) to be an interesting read.
 
 **Solution**
 cm20-rev3-rs1n-gpwd
+
+### BINARY ANALYSIS
 
 ### Need more coffee!!! (100)
 **Getting Started**
@@ -90,7 +96,7 @@ Hint: **CCCMCCMCMM20-CCCCMCCCCCCCCMCCMMCMCMMCC-MCCMCCCCCCMCCCMMCCMCCCMCCMCCCM-CC
 OK, I didn't know the bacon cipher was a thing. Thanks google.
 
 **What I learned**  
-This decoding website is great. I could just say that the first letter was C and the 2nd was M and it deciphered it: [DCode Bacon Cipher](https://www.dcode.fr/bacon-cipher). This was also nice for summarizing how it works: [Bacon Cipher explanation](https://github.com/mathiasbynens/bacon-cipher)
+The decoding website is great. I could just say that the first letter was C and the 2nd was M and it deciphered it: [DCode Bacon Cipher](https://www.dcode.fr/bacon-cipher). This was also nice for summarizing how it works: [Bacon Cipher explanation](https://github.com/mathiasbynens/bacon-cipher)
 
 **Solution** 
 CM20-BACON-TASTES-BETTER-AT-CODEMASH
