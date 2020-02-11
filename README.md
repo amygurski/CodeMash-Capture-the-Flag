@@ -125,16 +125,18 @@ ASCII to char conversions. At first, I started by looking at ASCII tables and fi
 **Solution**
 CM20-K3Y5-ST0R-D1NA-PLST
 
-##On Site Challenge
+### On Site Challenge
 
 ### You are going to need a broom (1000)
 **Getting started**
-Thankfully there was a reference to a scytale. There was also a mysterious broom propped in the corner of the boardgame room near the strip of paper. Wrapping it around the broom, it was clean the numbers lined up-ish. I wrote them down and messed with them til around midnight to no avail. The next morning, the broom was gone! I told Bill Sempf and he located it and made a note that it was for CodeMash. Some more careful wrapping of the hint around the broom revealed the answer.
+Thankfully there was a reference to a scytale. There was also a mysterious broom propped in the corner of the boardgame room near the strip of paper. Wrapping it around the broom, it was clear the numbers lined up-ish. I wrote them down and messed with them til around midnight to no avail. The next morning, the broom was gone! I told Bill Sempf and he located it and made a note that it was for CodeMash. Some more careful wrapping of the hint around the broom revealed the answer.
 
 **What I learned**
-This was the start of being more social with the CTF. I wound up working on it with someone and we got SO close. This one was in Hex Code:
+This was the start of being more social with the CTF. I wound up working on it with someone and we got SO close. This one was in Hex Code and I think I have the cm20- part memorized now after staring at it for so long trying to get the rest to work:
+
 63 6d 32 30 2d 
 69 73 65 65 2d 79 6f 75 66 2d 6f 75 6e 64
+
 Putting it into a Hex to ASCII converter yielded the results: [Hex to ASCII converter](https://www.rapidtables.com/convert/number/hex-to-ascii.html)
 
 **Solution**
