@@ -116,11 +116,11 @@ The trick here was realizing Francis Bacon was a clue, which seems so obvious no
 I messed around with this one a bit before I looked at it in VS Code and found these lines in info.PLIST:
  <key>Flag</key>
  <string>13 23 92 90 87 21 93 35 95 87 29 30 90 28 87 14 91 24 11 87 26 22 29 30</string>
- Knowing it started with CM20, I was able to work out that I needed to add 54 or subtract 42 to get the hexidecimal number:
+ Knowing it started with CM20, I was able to work out that I needed to add 54 or subtract 42 to get the decimal number:
  67 77 50 48 45 75 51 89 53 45 83 84 48 82 45 68 49 78 65 45 80 76 83 84
  
 **What I learned**
-ASCII to char conversions. At first, I started by looking at ASCII tables and figuring out the pattern. Once I had done the shift, this tool did the rest of the work: [Decimal to ASCII](https://onlineasciitools.com/convert-decimal-to-ascii)
+I started by looking at ASCII tables and figuring out the pattern, so I got pretty familiar with ASCII code. Once I had figured out the shift, this tool did the rest of the work: [Decimal to ASCII](https://onlineasciitools.com/convert-decimal-to-ascii)
 
 **Solution**
 CM20-K3Y5-ST0R-D1NA-PLST
