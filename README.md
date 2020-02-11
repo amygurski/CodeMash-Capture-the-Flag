@@ -1,10 +1,30 @@
 # CodeMash 2020 Capture the flag
-I participated in the capture the flag challenge at CodeMash 2020. A Capture The Flag competition is a technological puzzle game played online, that requires research to capture the flags and learn about technology. By doing these challenges, I learned a lot and it enhances my CodeMash experience because it brought me together with some cool people there who also enjoy a challenge.
+I participated in the capture the flag challenge at CodeMash 2020. I was proud of myself in that I was in 7th place at one point in a competition of over 200 people.
+
+A Capture The Flag competition is a technological puzzle game played online, that requires research to capture the flags and learn about technology. By doing these challenges, I learned a lot and it enhances my CodeMash experience because it brought me together with some cool people there who also enjoy a challenge.
 
 # Write-up for solutions
-### 100 POINT CHALLENGES
+### ACCESS CONTROL
 
-### 1. All your base are belong to us! 
+### Need more coffee!!! (100)
+**Getting Started**
+The file just said "RunMe" with no extension, so I used this website to check the extension:
+[CheckFileType](http://checkfiletype.com/)
+
+This identified it as a: File Type: compiled Java class data, version 52.0.
+
+I added the .class extension. This enabled me to run it using Bash by typing "java RunMe"
+
+**What I learned** 
+The file identifier tool and running Java class files.
+
+**Solution**
+cm20-cafe-babe
+
+### ENCODING
+
+### All your base are belong to us! (100)
+
 **Y20yMC00bGwteTB1ci1iNDUzLTRyMy1iM2wwbjYtNzAtdTU=**
 
 **Getting started** 
@@ -16,9 +36,8 @@ How to recognize Base64. Base64 is lengths of 4 characters. Every character is i
 **Solution** 
 cm20-4ll-y0ur-b453-4r3-b3l0n6-70-u5
 
-### 2. These soundex exactly the same
+### These soundex exactly the same (100)
 **Their he'll pare; There heal pair; They're heel pear**
-The key format for this challenge is cm20-xxxx-xxxx-xxxx
 
 **Getting started** 
 Since it said "soundex" rather than "sound", I figured that was a clue.
@@ -28,6 +47,10 @@ Soundex is a SQL expression. The SOUNDEX() function accepts a string and convert
 
 **Solution** 
 cm20-T600-H400-P600
+
+### All your bases belong to us - level 2 (300)
+**Getting Started**
+After the level 1 challenge, I was ready for Base64! Decoding it I saw the file started with PNG. I found a [Base64 to PNG converter](https://onlinepngtools.com/convert-base64-to-png) and sure enough a flag was on the image.
 
 ### 3. Where's the Bacon
 **CCCMCCMCMM20-CCCCMCCCCCCCCMCCMMCMCMMCC-MCCMCCCCCCMCCCMMCCMCCCMCCMCCCM-CCCCMCCMCCMCCMCMCCMCCCMCCMCCCC-CCCCCMCCMC-CCCMCCMMCMCCCMMCCMCCCMCMMCCCCCMCCCMCCMMM**
