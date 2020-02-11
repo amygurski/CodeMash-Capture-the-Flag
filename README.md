@@ -1,7 +1,7 @@
 # CodeMash 2020 Capture the flag
 I participated in the capture the flag challenge at CodeMash 2020. 
 
-A Capture The Flag competition is a technological puzzle game played online, that requires research to capture the flags and learn about technology. By doing these challenges, I learned a lot and it enhances my CodeMash experience because it brought me together with some cool people there who also enjoy a challenge.
+A Capture The Flag competition is a technological puzzle game played online, that requires research to capture the flags and learn about technology. By doing these challenges, I learned a lot and it enhanced my CodeMash experience because it brought me together with some cool people there who also enjoy a challenge.
 
 For a brief while, I was on the top 10 list, and I really like how my curve - the yellow one - is "gradual" - it shows how I was struggling and learning for each one (whereas others wizzed through them!). I'm so excited to bring what I learned to next years' CTF!
 
