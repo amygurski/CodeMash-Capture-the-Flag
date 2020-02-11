@@ -4,6 +4,7 @@ I participated in the capture the flag challenge at CodeMash 2020. I was proud o
 A Capture The Flag competition is a technological puzzle game played online, that requires research to capture the flags and learn about technology. By doing these challenges, I learned a lot and it enhances my CodeMash experience because it brought me together with some cool people there who also enjoy a challenge.
 
 # Write-up for solutions
+
 ### ACCESS CONTROL
 
 ### Need more coffee!!! (100)
@@ -30,7 +31,7 @@ cm20-cafe-babe
 **Getting started** 
 The first thing to figure out was that the Flags start with cm20. I used an online tool and was decoding different formats and it all looked like gibberish. 
 
-**What I learned**  
+**What I learned**
 How to recognize Base64. Base64 is lengths of 4 characters. Every character is in the sets A-Z, a-z, 0-9, +, / except for padding at the end which is 0, 1 or 2 "=" characters. Since this ends with an = and doesn't have any other alphanumeric chars it seemed like a good thing to check. Used this [Base64 Decoder](https://www.base64decode.org/).
 
 **Solution** 
