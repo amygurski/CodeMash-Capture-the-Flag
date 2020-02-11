@@ -7,6 +7,22 @@ A Capture The Flag competition is a technological puzzle game played online, tha
 
 ### ACCESS CONTROL
 
+### BINARY ANALYSIS 
+### We got the password dump (100)
+**Getting started**
+These were the passwords:
+97b6b44323b5e0748e84c198025a772d
+b49add72074b0ba72357b068035b4676
+a37a67d2cd38a3ac9ea27b1215002b99
+4259eb9ea37f3ba630d82ac7dd50e44b
+I started with Google, big surprise, and stumbled on a password hash cracker. Pasting them in identified them as MD5 type and gave the result.
+
+**What I learned**
+The term "password hash" and I found the Wikipedia page on [MD5](https://en.wikipedia.org/wiki/MD5) to be an interesting read.
+
+**Solution**
+cm20-rev3-rs1n-gpwd
+
 ### Need more coffee!!! (100)
 **Getting Started**
 The file just said "RunMe" with no extension, so I used this website to check the extension:
@@ -81,7 +97,7 @@ CM20-BACON-TASTES-BETTER-AT-CODEMASH
 
 ### What is missing? (200)
 **Getting started**
-This one was an HTML poem:
+This one was an HTML file with a poem. I was comfortable with looking at HTML source code so I got on the right track quickly:
 ![Bacon Poem](https://github.com/amygurski/CodeMash-Capture-the-Flag/blob/master/img/whatismissingpoem.PNG)
 
 **What I learned**
@@ -107,7 +123,7 @@ CM20-K3Y5-ST0R-D1NA-PLST
 
 ### You are going to need a broom (1000)
 **Getting started**
-Thankfully there was a reference to a scytale. There was also a mysterious broom propped in the corner of the boardgame room near the strip of paper. Wrapping it around the broom, it was clean the numbers lined up-ish. I wrote them down and messed with them til around midnight to no avail. The next morning, the broom was gone! I told Bill and he located it and made a note that it was for CodeMash. Some more careful wrapping revealed the answer.
+Thankfully there was a reference to a scytale. There was also a mysterious broom propped in the corner of the boardgame room near the strip of paper. Wrapping it around the broom, it was clean the numbers lined up-ish. I wrote them down and messed with them til around midnight to no avail. The next morning, the broom was gone! I told Bill Sempf and he located it and made a note that it was for CodeMash. Some more careful wrapping of the hint around the broom revealed the answer.
 
 **What I learned**
 This was the start of being more social with the CTF. I wound up working on it with someone and we got SO close. This one was in Hex Code:
